@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+.pytest_cache/
+
+# Coverage reports and data
+initial_decision_html/
+initial_statement_html/
+.coverage
+
+# Mutation testing output
+initial_mutation_output.log
+initial_mutation_report.html
