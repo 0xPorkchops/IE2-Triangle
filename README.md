@@ -5,6 +5,17 @@ test effectiveness, using code coverage and mutation analysis.
 NOTE) In the following, we will be using the python 3 commands. You may instead need to use the python commands.
 
 # Installation
+## How I installed
+1. Ensure you have `uv` installed
+2. Run `uv venv -p 3.11`
+3. (Optional) To enter the virtual environment in your terminal to run commands without the `uv run` prefix:
+   - On MacOS/Linux, run `source .venv/bin/activate`
+   - On Windows, run `.venv\Scripts\activate`.
+4. Run `uv pip install -r requirements.txt`
+5. Try running test.sh with `uv run bash test.sh`
+6. Check that no dependencies are missing. If so, add them to requirements.txt and redo step 4 & 5.
+
+## Original installation instructions
 We advise you to create a virtual enviroment (python venv, conda) to install the packages.
 Preferred version of python - **python3.8**. 
 
