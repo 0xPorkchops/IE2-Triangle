@@ -6,7 +6,7 @@ NOTE) In the following, we will be using the python 3 commands. You may instead 
 
 # Installation
 ## How I installed
-1. Ensure you have `uv` installed
+1. Ensure you have [uv](https://github.com/astral-sh/uv?tab=readme-ov-file#installation) installed
 2. Run `uv venv -p 3.11`
 3. (Optional) To enter the virtual environment in your terminal to run commands without the `uv run` prefix:
    - On MacOS/Linux, run `source .venv/bin/activate`
