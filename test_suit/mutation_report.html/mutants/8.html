@@ -36,7 +36,7 @@
 <h3>Details</h3>
 <ul>
     <li>module - <code><module 'isTriangle' from '/root/IE2-Triangle/test_suit/isTriangle.py'></code></li>
-    <li><span class="label label-success">killed</span> by <code>test_equilateral_triangle (test_mutationAdequate.TestMutationAdequate.test_equilateral_triangle)</code></li>
+    <li><span class="label label-success">killed</span> by <code>test_edge_cases (test_mutationAdequate.TestMutationAdequate.test_edge_cases)</code></li>
     
     <li>duration - 0.003 s</li>
     
@@ -47,8 +47,8 @@
 
 <h3>Exception traceback</h3>
 <pre>Traceback (most recent call last):
-  File "/root/IE2-Triangle/test_suit/test_mutationAdequate.py", line 14, in test_equilateral_triangle
-    self.assertEqual(Triangle.classify(5, 5, 5), Triangle.Type.EQUILATERAL)
+  File "/root/IE2-Triangle/test_suit/test_mutationAdequate.py", line 34, in test_edge_cases
+    self.assertEqual(Triangle.classify(1, 1, 1), Triangle.Type.EQUILATERAL)
 AssertionError: <Type.ISOSCELES: 3> != <Type.EQUILATERAL: 2>
 </pre>
 
